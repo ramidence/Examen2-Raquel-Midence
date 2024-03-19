@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+	font-family: "catamaran";
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+
+
+#hero-slides h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	border: solid 5px #fff;
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;	
+}
+.hero-blanco{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 60px;
+	padding: 10px 0;	
+}
+.hero-rojo{
+	text-transform: uppercase;
+	font-size: 20px;
+	background-color: var(--color-rojo);
+	padding: 5px;
+	font-weight: 800;
+	text-align: center;	
+}
+
+#intro{
+	padding: 20px;
+	margin: 2%;
+}
+.caja-intro img{
+	filter: grayscale(1);
+}
+#intro h5{
+	text-transform: uppercase;
+	font-size: 15px;
+}
+#intro h4{
+	text-transform: uppercase;
+}
+.caja-intro{
+	background-color: var(--color-negro);
+}
+.caja-text{
+	padding-top: 20px;
+	color: #fff;
+}
+.btn-rojo{
+	background-color: var(--color-rojo);
+	color: #fff;
+}
+
+
+
+#products img{
+	width: 100%;
+}
+#products h2{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	border: solid 2px #fff;
+	padding: 10px 0;
+	margin-bottom: 30px;
+}
+.caja-producto{
+	background-color: black;
+	font-size: 10px;
+	color: #fff;
+	
+}
+.product-text{
+	color: #fff;
+}
+#products h3{
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: 300;
+}
+#products p{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 300;
+	
+}
+.titulo-rojo{
+	color: var(--color-rojo);
+	padding: 10px;
+}
+.titulo-blanco{
+	padding: 200px;
+}
+
+
+#cta{
+	background-image: url(../img/bg-parallax.png);
+	padding: 15%;
+	color: #fff;
+}
+#cta h4{
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: 700;
+}
+#cta p{
+	font-size: 30px;	
+}
+.btn-blanco{
+	color: #fff;
+	border: solid 2px #fff;
+	padding: 10px 20px;
+}
+
+
